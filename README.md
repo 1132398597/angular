@@ -1,27 +1,24 @@
-# App
+angular
+dota2英雄
+涉及angular增删改查
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+应用
+该项目是使用Angular CLI版本8.2.1 生成的。
 
-## Development server
+开发服务器
+运行ng serve开发服务器。导航到http://localhost:4200/。如果您更改任何源文件，应用程序将自动重新加载。
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+代码脚手架
+运行ng generate component component-name以生成新组件。你也可以使用ng generate directive|pipe|service|class|guard|interface|enum|module。
 
-## Code scaffolding
+建立
+运行ng build以构建项目。构建工件将存储在dist/目录中。使用--prod标志进行生产构建。
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+运行单元测试
+运行ng test以通过Karma执行单元测试。
 
-## Build
+运行端到端测试
+运行ng e2e以通过Protractor执行端到端测试。
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+进一步帮助
+要获得有关Angular CLI使用的更多帮助，ng help请查看Angular CLI自述文件。
